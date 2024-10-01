@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    height: 50px;
+}
+
+.banner {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.info-section h5 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.info-img {
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+footer h6 {
+    font-weight: bold;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
