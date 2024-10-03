@@ -57,14 +57,17 @@
             <img src="img/Rectanglehandimg.png" alt="Volunteering Ideas" class="img-fluid">
         </div>    
         <div>
-        <h3>Share Your Volunteering Ideas</h3>
-        <form>
-            <input type="text" placeholder="Your name" class="form-control mb-2">
-            <input type="email" placeholder="Your email.ID" class="form-control mb-2">
-            <textarea class="form-control" placeholder="Ideas" rows="3"></textarea>
+            <div>
+        <h3>Register As A Donee</h3></div><br>
+        <form id="volunteerForm">
+            <input type="text" id="name" placeholder="Your name" class="form-control mb-2" required><br>
+            <input type="email" id="email" placeholder="Your email" class="form-control mb-2" required><br>
+            <input type="text" id="phone" placeholder="Your phone number" class="form-control mb-2" required><br>
+            <input type="file" id="proposal" class="form-control mb-2" accept=".pdf" required>
+            <small class="form-text text-muted">Please upload your verification details as a PDF document. Max size: 5MB.</small>
             <button type="submit" class="btn btn-primary mt-2" style="background-color: black; color: white;">Send</button>
             <button type="reset" class="btn btn-secondary mt-2" style="background-color: black; color: white;">Reset</button>
-           
+            <div id="errorMessage" style="color:red; margin-top:10px;"></div>
         </form>
     </section>
     </div></div>
