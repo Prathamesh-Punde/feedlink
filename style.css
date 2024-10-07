@@ -1,45 +1,15 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-.logo {
-    height: 50px;
-}
-
-.banner {
-    background-color: #f5f5f5;
-    padding: 50px 0;
-}
-
-.info-section h5 {
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-.info-img {
-    height: 80px;
-    margin-bottom: 10px;
-}
-
-footer {
-    padding: 20px 0;
-    background-color: #f8f9fa;
-}
-
-footer h6 {
-    font-weight: bold;
-}
-
-footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-/* .info-img {
-    width: 100%; 
-    height: auto; 
-}
-
-.locate-img {
-    height: 1000px; 
-    object-fit: cover; 
-} */
+p{
+    
+        text-align: justify;  /* Justifies text */
+        line-height: 1.6;     /* Adjusts line spacing for readability */
+        font-size: 16px;      /* Adjusts font size */
+        font-family: 'Arial', sans-serif;  /* Sets the font family */
+        margin: 20px 0;       /* Adds space around the paragraph */
+        color: #333;          /* Sets the text color */
+        letter-spacing: 0.5px; /* Adds space between letters */
+        padding: 10px;        /* Adds padding inside the paragraph */
+        background-color: #f9f9f9; /* Light background for contrast */
+        border-radius: 5px;   /* Rounds the corners of the paragraph box */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    }
+    
