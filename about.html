@@ -1,115 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - FeedLink</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);
-        }
+    <link rel="stylesheet" href="about.css">
 
-        /* Header Animation */
-        header {
-            background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);
-            animation: fadeIn 1s ease-in-out;
-        }
-
-        header .navbar-brand img {
-            transition: transform 0.3s ease-in-out;
-        }
-
-        header .navbar-brand img:hover {
-            transform: scale(1.1);
-        }
-
-        /* Section Animations */
-        section {
-            animation: fadeInUp 1s ease-in-out;
-            padding: 40px 20px;
-        }
-
-        h1, h2 {
-            color: #333;
-            align-content: center;
-            animation: fadeInDown 1s ease-in-out;
-            text-align: center;
-        }
-
-        p {
-            color: #555;
-            line-height: 1.6;
-            text-align: justify;
-            max-width: 800px;
-            margin: 0 auto;
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        /* How It Works Section - Animations on Cards */
-        .how-it-works {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .how-it-works div {
-            text-align: center;
-            max-width: 250px;
-            padding: 20px;
-            transition: transform 0.3s ease;
-            animation: fadeInUp 1.5s ease-in-out;
-        }
-
-        .how-it-works div:hover {
-            transform: scale(1.05);
-        }
-
-        .how-it-works img {
-            max-width: 80px;
-            margin-bottom: 15px;
-            transition: transform 0.3s ease;
-        }
-
-        .how-it-works img:hover {
-            transform: scale(1.2);
-        }
-
-        /* Footer Styling */
-        footer {
-            background-color: #f1f1f1;
-            padding: 20px;
-            text-align: center;
-            margin-top: 40px;
-            animation: fadeIn 2s ease-in-out;
-        }
-
-        /* Animations */
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    </style>
 </head>
+
 <body>
 
     <!-- Header -->
     <header class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" class="logo" style="max-width: 100px; max-height: 100px; margin-left: 60px;"></a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" class="logo"
+                style="max-width: 100px; max-height: 100px; margin-left: 60px;"></a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
@@ -125,7 +31,10 @@
     <section>
         <h1>About FeedLink</h1>
         <p>
-            At FeedLink, we believe that no food should ever go to waste. Our platform connects donors with donees to redistribute excess food, reducing food waste and addressing hunger. Whether you're an individual, organization, or event host, FeedLink provides an easy way to donate leftover food to people who need it most.
+            At FeedLink, we believe that no food should ever go to waste. Our platform connects donors with donees to
+            redistribute excess food, reducing food waste and addressing hunger. Whether you're an individual,
+            organization, or event host, FeedLink provides an easy way to donate leftover food to people who need it
+            most.
         </p>
     </section>
 
@@ -133,7 +42,9 @@
     <section>
         <h2>Our Mission</h2>
         <p>
-            To create a sustainable platform that fosters collaboration between communities to combat food wastage and hunger. We strive to bridge the gap between food abundance and scarcity by facilitating easy connections between donors and donees.
+            To create a sustainable platform that fosters collaboration between communities to combat food wastage and
+            hunger. We strive to bridge the gap between food abundance and scarcity by facilitating easy connections
+            between donors and donees.
         </p>
     </section>
 
@@ -157,14 +68,16 @@
                 <p>Reach out to the donee and arrange the donation. Together, we can make a difference!</p>
             </div>
         </div>
-    
 
-    <!-- Write to Us Section -->
-    
+
+        <!-- Write to Us Section -->
+
         <h2>Write to Us</h2>
-        <p >We would love to hear from you! If you have any questions, suggestions, or feedback, feel free to reach out to us. Our team is always ready to help you make the most of the FeedLink platform. Contact us at:</p>
-        
-        <p><strong>Email:</strong> <a href="mailto:support@feedlink.com" style="color: #007bff;">support@feedlink.com</a></p>
+        <p>We would love to hear from you! If you have any questions, suggestions, or feedback, feel free to reach out
+            to us. Our team is always ready to help you make the most of the FeedLink platform. Contact us at:</p>
+
+        <p><strong>Email:</strong> <a href="mailto:support@feedlink.com"
+                style="color: #007bff;">support@feedlink.com</a></p>
     </section>
 
     <!-- Footer -->
@@ -173,4 +86,5 @@
     </footer>
 
 </body>
+
 </html>

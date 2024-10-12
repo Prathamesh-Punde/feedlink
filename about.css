@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);
+}
+
+/* Header Animation */
+header {
+    background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);
+    animation: fadeIn 1s ease-in-out;
+}
+
+header .navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
+
+header .navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+/* Section Animations */
+section {
+    animation: fadeInUp 1s ease-in-out;
+    padding: 40px 20px;
+}
+
+h1, h2 {
+    color: #333;
+    align-content: center;
+    animation: fadeInDown 1s ease-in-out;
+    text-align: center;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* How It Works Section - Animations on Cards */
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.how-it-works div {
+    text-align: center;
+    max-width: 250px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.how-it-works div:hover {
+    transform: scale(1.05);
+}
+
+.how-it-works img {
+    max-width: 80px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.how-it-works img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}

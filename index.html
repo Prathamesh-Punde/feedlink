@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body style=" background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);">
+
+<body>
     <!-- Header -->
-    <header class="navbar navbar-expand-lg navbar-light bg-light"style=" background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo" class="logo"style="max-width: 100px;max-height: 100px;margin-left: 60px;"></a>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
@@ -33,56 +35,58 @@
             <div class="col-md-4">
                 <a href="donate.html"><img src="img/donate.png" alt="Make a Donation" class="info-img"></a>
                 <h5>Make a Donation</h5>
-                <p style="text-align: justify;">Every drop contributes to the ocean of change. Your donation, no matter how small, holds the power to create ripples of hope and transformation.</p>
+                <p style="text-align: justify;">Every drop contributes to the ocean of change. Your donation, no matter
+                    how small, holds the power to create ripples of hope and transformation.</p>
             </div>
             <div class="col-md-4">
-                <a href="locate.html"><img src="img/locate.png" alt="Locate a Donee" class="info-img "style="height: 30px;padding: top 20px;"></a>
+                <a href="locate.html"><img src="img/locate.png" alt="Locate a Donee" class="info-img "
+                        style="height: 30px;padding: top 20px;"></a>
                 <div style="padding-top: 20px;">
-                <h5>Locate a Donee</h5>
-                <p style="text-align: justify;">Easily find someone nearby who needs food. Help reduce food waste by connecting with a donee in your area and donating your excess food.</p>
-            </div></div>
+                    <h5>Locate a Donee</h5>
+                    <p style="text-align: justify;">Easily find someone nearby who needs food. Help reduce food waste by
+                        connecting with a donee in your area and donating your excess food.</p>
+                </div>
+            </div>
             <div class="col-md-4">
                 <a href="volreg.html"><img src="img/volenteer.png" alt="Become a Volunteer" class="info-img"></a>
                 <h5>Become a Volunteer</h5>
-                <p style="text-align: justify;">Join hands with us to paint a brighter tomorrow, one act of service at a time. Empower communities and help change lives.</p>
+                <p style="text-align: justify;">Join hands with us to paint a brighter tomorrow, one act of service at a
+                    time. Empower communities and help change lives.</p>
             </div>
         </div>
     </section>
-    
 
     <!-- Volunteering Ideas Form -->
     <section class="ideas-section container text-center mt-5">
-        <div style="display: flex; justify-content: space-between;">
-        <div style="max-width: 2000px;max-height: 2000px;">
-            <img src="img/Rectanglehandimg.png" alt="Volunteering Ideas" class="img-fluid">
-        </div>    
         <div>
-            <div>
-        <h3>Register As A Donee</h3></div><br>
-        <form id="volunteerForm">
-            <input type="text" id="name" placeholder="Your name" class="form-control mb-2" required><br>
-            <input type="email" id="email" placeholder="Your email" class="form-control mb-2" required><br>
-            <input type="number" id="phone" placeholder="Your phone number" class="form-control mb-2" required><br>
-            <input type="file" id="proposal" class="form-control mb-2" accept=".pdf" required>
-            <small class="form-text text-muted">Please upload your verification details as a PDF document. Max size: 5MB.</small>
-            <button type="submit" class="btn btn-primary mt-2" style="background-color: black; color: white;">Send</button>
-            <button type="reset" class="btn btn-secondary mt-2" style="background-color: black; color: white;">Reset</button>
-            <div id="errorMessage" style="color:red; margin-top:10px;"></div>
-        </form>
+            <img src="img/Rectanglehandimg.png" alt="Volunteering Ideas" class="img-fluid">
+        </div>
+        <div>
+            <h3>Register As A Donee</h3><br>
+            <form id="volunteerForm">
+                <input type="text" id="name" placeholder="Your name" class="form-control mb-2" required><br>
+                <input type="email" id="email" placeholder="Your email" class="form-control mb-2" required><br>
+                <input type="number" id="phone" placeholder="Your phone number" class="form-control mb-2" required><br>
+                <input type="file" id="proposal" class="form-control mb-2" accept=".pdf" required>
+                <small class="form-text text-muted">Please upload your verification details as a PDF document. Max size:
+                    5MB.</small>
+                <button type="submit" class="btn btn-primary mt-2">Send</button>
+                <button type="reset" class="btn btn-secondary mt-2">Reset</button>
+                <div id="errorMessage" style="color:red; margin-top:10px;"></div>
+            </form>
+        </div>
     </section>
-    </div></div>
-    <br><br><br><br>
-    <!-- Footer -->
+<br><br>
+    <!-- Footer Section -->
     <section class="footer-info container">
         <div class="row">
             <!-- Our Vision Section -->
             <div class="col-md-4">
                 <h5>Our Vision</h5>
-                <p style="text-align: justify;">
-                    "Our vision is to eliminate food waste by connecting donors with those in need, creating a sustainable and compassionate community where no meal goes to waste."
-                </p>
+                <p>"Our vision is to eliminate food waste by connecting donors with those in need, creating a
+                    sustainable and compassionate community where no meal goes to waste."</p>
             </div>
-    
+
             <!-- Connect With Us Section -->
             <div class="col-md-4">
                 <h5>Connect With Us</h5>
@@ -91,23 +95,24 @@
                 <p><img src="img/x.png" alt="Twitter" class="logo-icon"> Twitter</p>
                 <p><img src="img/fb.png" alt="Facebook" class="logo-icon"> Facebook</p>
             </div>
-    
+
             <!-- Contact Us Section -->
             <div class="col-md-4">
                 <h5>Contact Us</h5>
-                <p><img src="img/add.png" alt="Address" class="logo-icon"> Chh. shambhajinagar,Maharashtra 431001, India</p>
+                <p><img src="img/add.png" alt="Address" class="logo-icon"> Chh. Shambhajinagar, Maharashtra 431001,
+                    India</p>
                 <p><img src="img/mail.png" alt="Email" class="logo-icon"> Info@FeedLink.Org</p>
                 <p><img src="img/call 1.png" alt="Phone" class="logo-icon"> +91-967145****</p>
                 <p><img src="img/call 1.png" alt="Phone" class="logo-icon"> +91-99585****</p>
             </div>
         </div>
     </section>
-    <footer style=" background: linear-gradient(135deg, #f0f4f8, #d9e4ec, #a6c1de);">
-        <p style="text-align: center;">&copy; 2024 FeedLink. All rights reserved.</p>
+    <footer>
+        <p>&copy; 2024 FeedLink. All rights reserved.</p>
     </footer>
 
-
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
