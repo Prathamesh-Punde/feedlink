@@ -42,6 +42,7 @@ header {
 .ideas-section img {
     max-width: 100%;
     height: auto;
+    padding-right: 20px;
 }
 
 #volunteerForm .btn-primary,
